@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../assets/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-mid {
+    background: #121212;
+}
+.bg-low {
+    background: #262629;
+}
+
+.icode-highlight {
+    background: linear-gradient(to right, #03fcc6, #f558e8, #c658f5);
+    color: transparent;
+    background-clip: text;
+}
+.icode-card {
+   border-radius: 10px;
+}
+
+.icode-card{
+    text-align:center;
+    padding-bottom:5px;
+    background:
+        linear-gradient(to right, #03fcc6, #f558e8, #c658f5)
+        left 
+        bottom
+        no-repeat; 
+    background-size:100% 5px;
+}
+.icode-card:hover {
+    /*background-position:100% 0 ,0% 100%, 0 0 , 100% 100%, 0 0;
+    background-size:50% 5px;*/
+
+    background-size:50% 5px;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1)
+}
