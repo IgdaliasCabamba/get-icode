@@ -19,9 +19,9 @@ body {
     background: linear-gradient(to right, #03fcc6, #f558e8, #c658f5);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
-
+    color: transparent
 }
+
 .icode-card {
    border-radius: 10px;
 }
